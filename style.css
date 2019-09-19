@@ -1,0 +1,234 @@
+@font-face {
+    font-family: Font;
+    src: url(Jameson.otf);
+}
+
+
+html {
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: auto;
+
+}
+
+body {
+
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    width: 100%;
+    position: absolute;
+    margin: auto;
+
+}
+
+
+
+header {
+    background-color: #DEDEDE;
+    margin-bottom: 200px;
+    width: 100%;
+
+}
+
+
+#navbar {
+    background-color: white;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    padding-left: 140px;
+    padding-right: 140px;
+    position: sticky;
+    text-align: right;
+    z-index: 1;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .2);
+
+}
+
+.container {
+    margin-right: 200px;
+    margin-left: 200px;
+    width: auto;
+}
+
+.nav-links {
+    flex-direction: row;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+
+}
+
+
+.nav-links li a {
+    text-decoration: none;
+   color: #767676;
+    padding: 0 25px;
+}
+
+.nav-links li a:hover {
+    cursor: pointer;
+}
+
+.nav-links li {
+    list-style: none;
+    display: inline-block;
+}
+
+
+.logo {
+    text-align: center;
+}
+
+
+h1 {
+
+    font-size: 5.96em;
+}
+
+.title {
+
+    color: #081733;
+    text-align: center;
+    font-family: Font;
+    margin-bottom: 10px;
+    font-weight: 200;
+    text-transform: uppercase;
+
+}
+
+h2 {
+
+    font-size: 3.052em;
+}
+
+.explore {
+    position: absolute;
+    top: 1700px;
+    left: 920px;
+}
+
+h4 {
+
+    font-size: 1.953em;
+}
+
+.intro {
+    width: 400px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+hr {
+    width: 300px;
+    color: #081733;
+
+}
+
+.first {
+    background-color: white;
+    display: grid;
+    margin-top: 200px;
+    height: 500px;
+    margin-bottom: 200px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    background-color: white;
+    padding: 30px;
+
+}
+
+.grid-item1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 13px;
+    font-family: Helvetica Neue;
+    color: #7C7C7C;
+    text-align: right;
+    width: 240px;
+    float: right;
+    margin-left: 260px;
+    margin-top: 100px;
+
+
+}
+
+
+
+.grid-item2 {
+    padding: 10px;
+    font-family: Helvetica Neue;
+    color: #7C7C7C;
+    text-align: center;
+}
+
+.bottle {
+    width: 300px;
+}
+
+.grid-item3 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 13px;
+    font-family: Helvetica Neue;
+    color: #7C7C7C;
+    text-align: left;
+    width: 240px;
+    float: left;
+    margin-right: 260px;
+    margin-top: 100px;
+
+
+}
+
+
+.icon {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.second {
+    height: auto;
+    width: 100%;
+    color: #707070;
+    font-family: Font;
+    font-size: 20px;
+
+}
+
+.pack {
+    width: 100%;
+    position: relative;
+}
+
+
+
+footer {
+    background-color: white;
+    display: block;
+    text-align: center;
+    height: 200px;
+    padding: 30px;
+    font-size: 20px;
+    margin-top: 70px;
+
+
+}
+
+footer a {
+
+    text-decoration: none;
+    display: block;
+   color: #767676;
+    margin-bottom: 20px;
+}

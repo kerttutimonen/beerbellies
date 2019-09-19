@@ -1,0 +1,163 @@
+@font-face {
+    font-family: Font;
+    src: url(Jameson.otf);
+}
+
+
+html {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: auto;
+
+}
+
+body {
+  
+ background-color: white;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    color: #767676;
+
+
+
+
+}
+
+header {
+    background-color: #DEDEDE;
+    width: 100%;
+
+}
+
+
+#navbar {
+    background-color: white;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    padding-left: 140px;
+    padding-right: 140px;
+    position: sticky;
+    text-align: right;
+    z-index: 1;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .2);
+
+}
+
+.container {
+    margin-right: 200px;
+    margin-left: 200px;
+    width: auto;
+}
+
+.nav-links {
+    flex-direction: row;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+
+}
+
+
+.nav-links li a {
+    text-decoration: none;
+   color: #767676;
+    padding: 0 25px;
+}
+
+.nav-links li a:hover {
+    cursor: pointer;
+}
+
+.nav-links li {
+    list-style: none;
+    display: inline-block;
+}
+
+.hero {
+    height: 400px;
+}
+
+h1 {
+
+    font-size: 5.96em;
+}
+
+h2 {
+
+    font-size: 3.052em;
+    font-family: Font;
+}
+
+
+h4 {
+
+    font-size: 1.953em;
+}
+
+
+.location {
+    
+width: 800px;
+    
+}
+
+.about1 {
+    width: 800px;
+    margin-right: 20px;
+}
+
+
+.first {
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    height: auto;
+    padding-right: 140px;
+}
+
+
+.second {
+    height: auto;
+    width: 100%;
+    color: #707070;
+    font-family: Font;
+    font-size: 20px;
+
+}
+
+p {
+    font-size: 16px;
+}
+
+
+footer {
+    background-color: white;
+    display: block;
+    text-align: center;
+    height: 200px;
+    padding: 30px;
+    font-size: 20px;
+    margin-top: 70px;
+
+
+}
+
+footer a {
+
+    text-decoration: none;
+    display: block;
+       color: #767676;
+    margin-bottom: 20px;
+}
+
+
+hr {
+    width: 300px;
+    color: #081733;
+
+}
